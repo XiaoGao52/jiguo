@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    /* background: #fdfdfd; */
+    width: 100%;
+    height: 306px;
+    border-top: 2px solid #fe584d;
+    padding-top: 20px;
+    /* background-color: saddlebrown; */
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    width: 80%;
+    height: 100%;
+    /* background-color: firebrick; */
+    margin: auto;
+}
+
+.box1 {
+    width: 100%;
+    height: 152px;
+    /* background-color: fuchsia; */
+}
+
+.box2 {
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(155, 134, 155); */
+}
+
+.box3 {
+    width: 100%;
+    height: 104px;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+.box1>.box101 {
+    width: 67px;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    margin-right: 10px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.box101>img {
+    width: 100%;
+    height: 40%;
+}
+
+.box101:nth-of-type(1) {
+    width: 160px;
+}
+
+
+
+.box1>.box102 {
+    display: flex;
+    width: 450px;
+    height: 100%;
+    /* display: flex; */
+    /* width: 450px; */
+    justify-content: space-around;
+    padding-right: 50px;
+    border-right: 1px solid #f0f0f0;
+    background-color: white;
+}
+
+.box1021 {
+    /* width: 24px; */
+    height: 100%;
+    /* background-color: rgb(23, 29, 187); */
+    flex: 1;
+    /* margin-left: 10px; */
+    margin-right: 1px;
+}
+
+.box1021>dl>dt {
+    font-size: 12px;
+    color: #333333;
+}
+
+.box1021>dl>dd {
+    margin: 7px 0px;
+}
+
+.box1021>dl>dd>a {
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.box>.box1>.box103 {
+    width: 43%;
+    height: 100%;
+    /* background-color: #fe584d; */
+    float: left;
+}
+
+.box2>p {
+    line-height: 50px;
+    font-size: 12px;
+    color: #333;
+}
+
+.box2>p>span {
+    margin-right: 30px;
+}
+
+
+
+.box2>p>a {
+    color: #999;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.box3>p {
+    font-size: 12px;
+    color: #B6B6B6;
+    line-height: 30px;
+
+}
+
+.box3>p>a {
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.box3>p>a:nth-of-type(2) {
+    text-decoration: none;
+    padding-left: 20px;
+    background: url(../img/beian.png)no-repeat;
+}
+
+
+
+/* .box1031 {
+    width: 110px;
+    height: 100%;
+    background-color: firebrick;
+    float: left;
+    margin-right: 20px;
+} */
+
+.box1>.box103 {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1031 {
+    width: 120px;
+    /* background-color: seagreen; */
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.box1031>img {
+    width: 96px;
+    height: 96px;
+}
+
+.box1031>p {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+
+.box1031>p:nth-of-type(1) {
+    margin-top: 10px;
+}
